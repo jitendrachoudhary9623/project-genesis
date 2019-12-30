@@ -32,7 +32,7 @@ const config = {
     description: "Documenting the development of genesis ",
     ogImage: null,
     docsLocation:
-      "https://github.com/jitendrasteam/project-genesis/master/content",
+      "https://github.com/jitendrasteam/project-genesis/tree/master/content",
     favicon: ""
   },
   pwa: {
