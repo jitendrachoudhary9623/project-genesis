@@ -10,7 +10,15 @@ metaDescription: "Task"
 
 #### What to do
 
-- MicroService which will take input as a video (Video can be high quality) and detect Emotion in each frame of the Video (Video length can be 1-5 min) and provide output as a emotions and their count of occurence of each emotion
+- Create 2 MicroServices
+  -- which will take input as a video (Video can be high quality) and detect Emotion in each frame of the Video (Video length can be 1-5 min) and provide output as a emotions and their count of occurence of each emotion
+
+### Emotions to detect
+
+- Basic microservice
+  - detect emeotion in only two labels - positive and negative
+- Advance microservice
+  - detect emotions as angry,offended,enthusiasm,afraid,happy,neutral
 
 #### Sub Tasks
 
@@ -25,6 +33,7 @@ metaDescription: "Task"
 #### Notes
 
 - checkin code everyday , if access to repo is not present or repo is not present request to create one.
+- each time update requirements.txt
 - daily update the doc
 - research things and focus on learning and doing best instead of doing quickly
 - if wring code for service/UI , test cases are compulsaory with a test coverage of 80 %
